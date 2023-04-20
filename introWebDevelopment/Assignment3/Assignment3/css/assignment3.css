@@ -1,0 +1,78 @@
+body {
+   
+    background-color: #ffff;
+    background-image: url("../pics/bk.png");
+
+/* Center and scale the image nicely */
+background-size: 20%;
+
+
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+
+    h4{
+    margin-top: 3.1em;
+      text-align: center;
+      color: maroon;
+      text-shadow: rgb(13, 13, 13);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: white;
+      border:1px solid #050505;
+    }
+
+    li{
+    list-style: none;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: center;
+      word-wrap: break-word;
+      border:1px solid #050505;
+      height: 50px;
+
+        
+    }
+    a{
+        color: maroon;
+    }
+
+    a:hover{
+        color: yellow;
+    }
+    a :visited{
+        color: blue;
+    }
+
+    #row1{
+        background-color:rgb(251, 153, 49);
+    }
+
+    #row2{
+        background-color: rgba(251, 153, 49);
+        font-size: 1.5em;
+        text-shadow: #050505, 1em;
+    }
+
+    table{
+      width: 100%;
+      border-color: #050505;
+      padding: 30px 30px 50px 40px;
+      table-layout: fixed;
+    }
+
+    #C{
+        font-size: 3em;
+    }
+
+    #F{
+        font-size: 3em;
+    }
+
+    .center{
+      margin-left: auto;
+      margin-right: auto;
+      
+    }

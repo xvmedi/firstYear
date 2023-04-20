@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    td {
+        padding-top: 2;
+        padding-bottom: 2;
+    }
+</style>
+
+<html>
+
+<head></head>
+
+<body>
+    <form name="studentform" action="main.html" method="get">
+        <h2></h2>
+        <table>
+            <th colspan="2" align="left" align="left">
+                <font size="+2">
+                    <font color="blue"><strong>Please complete our survey</strong></font>
+            </th>
+            <tr>
+                <th colspan="2" align="left" align="left">
+                    <font size="+1"><strong>Contact Information</strong></font>
+                </th>
+            </tr>
+            <tr>
+                <td><label for="em">
+                        <font color="blue"><strong> Address:&emsp;</strong>
+                    </label></td>
+                <td><input type="text" id="em" name="email" placeholder="Enter a minimum 8 char"></td>
+            </tr>
+            <tr>
+                <td><label for="fn">
+                        <font color="blue"><strong>First Name:</strong>
+                    </label></td>
+                <td><input type="text" id="fn" name="fname" maxlength="3" autofocus="1"></td>
+            </tr>
+            <tr>
+                <td><label for="ln" Last Name:>
+                        <font color="blue"><strong>Last Name:</strong></font>
+                    </label></td>
+                <td><input type="text" id="ln" name="lname"></td>
+            </tr>
+            <td colspan="2" align="left">
+                <font size="+1"><strong>Geographic Information</strong></font>
+                </th>
+                <tr>
+                    <td><label for="st">
+                            <font color="blue"><strong>State:</strong></font>
+                        </label></td>
+                    <td><input type="text" id="st" name="state" maxlength="2" size="10" placeholder="two charachters">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="zip">
+                            <font color="blue"><strong>Zip code:</strong></font>
+                        </label></td>
+                    <td><input type="text" id="zip" name="td" maxlength="5" size="10" placeholder="five digits"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="left">
+                        <font size="+1">
+                            <font><strong>How did you hear about us?</strong></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cb1">
+                            <font color="blue"><strong>Web search: </strong></font>
+                        </label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="csb1" name="checkb1" value="web search">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cb2">
+                            <font color="blue"><strong>Facebook:</strong></font>
+                        </label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="cb2" name="checkb2" value="facebook">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cb3">
+                            <font color="blue"><strong>Twitter: </font></strong>
+                        </label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="cb3" name="checkb3" value="twitter">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cb4">
+                            <font color="blue"><strong>Email: </strong></font>
+                        </label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="cb4" name="checkb4" value="webmail">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2" align="left" align="left">
+                        <font size="+1">Thank you for taking our survey!</font>
+                    </th>
+                </tr>
+                <tr>
+                    <td align="right"><input type="submit" value="Submit Here" name="btnsubmit">&emsp;</td>
+                    <td align="left"><input type="reset" value="Clear Fields" name="btnreset"></td>
+                </tr>
+                <tr>
+                    <td><a href="main.html">Main page</a></td>
+                </tr>
+        </table>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+header{
+  font-size: 5em;
+}
+
+body{
+  min-height: 100vh; 
+}
+
+footer{
+  margin-top: auto;
+}
+
+.image{
+float: left;
+padding: 1em;
+}
+
+ol{
+  float: left;
+  list-style: upper-roman;
+  background-color:rgb(98, 225, 214);
+}
+
+li{
+  padding: 41px;
+}
+
+.goback{
+  font-size: medium;
+  float: right;
+  padding-right: 3em;
+}
+
+.cite{
+  font-size: 0.75em;
+}
+
+.list{
+  float: left;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+#footer2{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}

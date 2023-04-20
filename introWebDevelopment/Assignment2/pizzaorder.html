@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    td {
+        padding-top: 20;
+        padding-bottom: 12;
+    }
+</style>
+
+<html>
+
+<head></head>
+
+<body>
+    <img src="pics/pizza.jpg" alt="no pix">
+    <form name="pizzaorderform" action="orderformCC.html" method="get">
+        <h2></h2>
+        <table>
+            <tr>
+                <th colspan="2" align="left" align="left">
+                    <font size="+1"><strong>Contact Information</strong></font>
+                </th>
+            </tr>
+            <tr>
+                <td><label for="fn">
+                        <font><strong>Name for order:</strong>
+                    </label></td>
+                <td><input type="text" id="fn" name="fname" maxlength="18" autofocus="1"></td>
+            </tr>
+            <td colspan="2" align="left">
+                <font size="+1"><strong>Pizza picker!</strong></font>
+                </th>
+                <tr>
+                    <td><label>Pizza Base:</label></td>
+                    <td>
+                        <select name="zabase" id="pizzabase">
+                            <optgroup label="Select your base:">
+                                <option value="handtoss">Hand Tossed</option>
+                                <option value="thin">Thin Crust</option>
+                                <option value="reg">Regular</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Pizza Type:</label></td>
+                    <td>
+                        <select name="zatype" id="pizzatype">
+                            <optgroup label="Select your pizza type:">
+                                <option value="pep">Pepperoni</option>
+                                <option value="chz">Cheese</option>
+                                <option value="veg">Veggie</option>
+                                <option value="hw">Hawaiian</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Pizza Size:</label></td>
+                    <td>
+                        <select name="zasize" id="pizzasize">
+                            <optgroup label="Select your pizza size:">
+                                <option value="small">Small</option>
+                                <option value="mid">Medium</option>
+                                <option value="large">Large</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="left">
+                        <font size="+1">
+                            <font><strong>Wash it down!</strong></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Drink:</label></td>
+                    <td>
+                        <select name="drink" id="drinkid">
+                            <optgroup label="Select your pizza size:">
+                                <option value="coke">Coca-cola</option>
+                                <option value="juice">juice</option>
+                                <option value="candry">Canada dry</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="drinknum"># of drinks</label></td>
+                    <td><input type="number" name="studentage" id="sa" max="10" size="1"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="left">
+                        <font size="+1">
+                            <font><strong>Dont skip dessert!</strong></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Dessert:</label></td>
+                    <td>
+                        <select name="dessert" id="dessert">
+                            <optgroup label="Select your dessert:">
+                                <option value="icecream">Ice-cream</option>
+                                <option value="brownie">Brownie</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="left">
+                        <font size="+1">
+                            <font><strong>We don't mind bringing the party to you!</strong></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Delivery Option:</label></td>
+                    <td>
+                        <select name="delivery" id="deliv">
+                            <optgroup label="Requires Delivery?:">
+                                <option value="yesdelivery">Yes</option>
+                                <option value="nodelivery">No</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><input type="submit" value="Pay and place!" name="btnsubmitpizza"></td>
+                    <td><a href="main.html">Main page</a></td>
+                </tr>
+        </table>
+    </form>
+</body>
+
+</html>

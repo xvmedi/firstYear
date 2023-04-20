@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <h2>Order Form</h2>
+    <form name="paywall" action="surveyform.html" method="get">
+        <fieldset>
+            <legend>Member Information</legend>
+            <table>
+                <tr>
+                    <td><label for="em"> Email Address:</label></td>
+                    <td><input type="text" id="em" name="email" placeholder="Enter a minimum 8 char"></td>
+                </tr>
+                <tr>
+                    <td><label for="fn"> First Name:</label></td>
+                    <td><input type="text" id="fn" name="fname" maxlength="3" autofocus="1"></td>
+                </tr>
+                <tr>
+                    <td><label for="ln">Last Name:</label></td>
+                    <td><input type="text" id="ln" name="lname"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Credit Card Information</legend>
+            <table>
+                <tr>
+                    <td><label>Card Type:</label></td>
+                    <td>
+                        <select name="card" id="cardtype">
+                            <optgroup label="Select your card type">
+                                <option value="visa">Visa</option>
+                                <option value="mc">Master-Card</option>
+                                <option value="amex">American Express</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="zip">Card Number:</label></td>
+                    <td><input type="text" id="zip" name="td" maxlength="16" size="16" placeholder="16 digits"></td>
+                </tr>
+                <tr>
+                    <td><label>Expiration Date:</label></td>
+                    <td>
+                        <select name="card" id="cardtype">
+                            <optgroup label="Select exp month ">
+                                <option value="January">January</option>
+                                <option value="February">February</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>
+                                <option value="June">June</option>
+                                <option value="July">July</option>
+                                <option value="August">August</option>
+                                <option value="September">September</option>
+                                <option value="October">October</option>
+                                <option value="November">November</option>
+                                <option value="December">December</option>
+                        </select>
+
+                        <select name="yearexp" id="expyear">
+                            <optgroup label="Select exp year ">
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Submit your order</legend>
+            <table>
+                <tr>
+                    <input type="submit" value="Submit Here" name="btnsubmit">&nbsp;
+                    <input type="reset" value="Clear Fields" name="btnreset">
+                </tr>
+                <tr>
+                    <td><a href="surveyform.html">Leave a review!</a></td>
+                </tr>
+                <tr>
+                    <td><a href="main.html">Main page</a></td>
+                </tr>
+            </table>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
